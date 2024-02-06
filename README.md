@@ -18,3 +18,6 @@ Thanks for your attention
 Sincerely,
 
 Ilkin
+
+
+P.S I have been coding for a while now so will edit this file in the future when I'll be well versed in this project
