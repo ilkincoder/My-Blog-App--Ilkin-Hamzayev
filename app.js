@@ -34,7 +34,7 @@ app.get("/api/posts", (req, res) => {
     res.status(200).send(postsData.get());
 
 })
-
+// Configuring API
 app.get("/api/posts/:post_id",(req, res) => {
 
 const postId = req.params.post_id;
@@ -52,7 +52,8 @@ if(foundPost){
 app.post("/api/posts",upload.single("post-image"),(req, res) =>{
 
 
-
+//New post variable
+    
 const newPost = {
     "id": `${Date.now()}`,
     "title": req.body.title,
