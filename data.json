@@ -1,3 +1,5 @@
+
+//Data to hold information for each blog post
 [{
     "id": "1696201555272",
     "title": "Test Post",
